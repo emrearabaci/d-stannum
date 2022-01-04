@@ -1,0 +1,10 @@
+@import 'colors';
+/* Import scss colors (./colors.scss) */
+
+body {
+  color: $majorText;
+}
+
+body.minorText {
+  color: $minorText;
+}
