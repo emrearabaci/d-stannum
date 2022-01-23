@@ -1,0 +1,25 @@
+@import '../colors';
+/* Import scss colors (./colors.scss) */
+
+.background {
+  /* The image used */
+  background-image: url(../../public/images/wave1.svg);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobileMarginLandingImage {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  // Optimizing mobile image (bootstrap breakpoint: 768)
+  .mobileMarginLandingImage {
+    margin-top: 6vh;
+  }
+}
