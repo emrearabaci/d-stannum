@@ -1,0 +1,22 @@
+@import '../colors';
+/* Import scss colors (./colors.scss) */
+
+.footerLink {
+  display: block;
+  text-decoration: none;
+}
+
+.facebookIcon:hover {
+  color: $facebookColor;
+  transition: 300ms ease-in-out;
+}
+
+.twitterIcon:hover {
+  color: $twitterColor;
+  transition: 300ms ease-in-out;
+}
+
+.instagramIcon:hover {
+  color: $instagramColor;
+  transition: 300ms ease-in-out;
+}

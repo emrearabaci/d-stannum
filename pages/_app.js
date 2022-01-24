@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 
 /* Libraries scss, js files */
 import 'normalize.css/normalize.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Custom scss and js files */
