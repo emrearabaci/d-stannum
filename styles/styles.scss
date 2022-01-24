@@ -67,6 +67,12 @@ a {
   font-weight: $minorFontWeight;
 }
 
+.customIcon {
+  font-size: $customIconFontSize;
+  color: $customIconColor;
+  transition: 300ms ease-in-out;
+}
+
 /*
  * TYPOGRAPHY CONFIG END
  */
