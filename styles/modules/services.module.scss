@@ -1,0 +1,10 @@
+@import '../colors';
+/* Import scss colors (./colors.scss) */
+
+@import '../typography';
+/* Import scss typography (./typography.scss) */
+
+.icon {
+  font-size: calc(1.4em /* customIconFontSize (typography.scss) */ + 4em);
+  color: $customIconColor;
+}
